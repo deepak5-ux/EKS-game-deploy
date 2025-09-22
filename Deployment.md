@@ -1,14 +1,17 @@
-DEPLOYMENT.md (Deploying 2048 App)
-```
-1. Namespace
+# DEPLOYMENT.md (Deploying 2048 App)
 
+## 1. Namespace
+
+```yaml
 apiVersion: v1
 kind: Namespace
 metadata:
   name: game-2048
 ```
-2. Deployment
-```
+
+## 2. Deployment
+
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -31,8 +34,10 @@ spec:
         ports:
         - containerPort: 80
 ```
-3. Service
-```
+
+## 3. Service
+
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -47,8 +52,10 @@ spec:
   selector:
     app.kubernetes.io/name: app-2048
 ```
-4. Ingress
-```
+
+## 4. Ingress
+
+```yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -70,8 +77,5 @@ spec:
               port:
                 number: 80
 ```
-Apply All Manifests
 
-kubectl apply -f manifests/
-
-✅ Now access the app through the ALB DNS name shown in AWS Console.
+📌 With this structure, your project will look **professional, clear, and recruiter-friendly** on GitHub & LinkedIn.
