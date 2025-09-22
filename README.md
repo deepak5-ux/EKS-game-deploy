@@ -58,9 +58,6 @@ The goal of this project is to demonstrate **how to deploy a containerized appli
 
 ## 📚 Documentation Links
 
-* [SETUP.md](./SETUP.md) → Cluster creation, IAM, tools setup.
-* [DEPLOYMENT.md](./DEPLOYMENT.md) → App deployment with manifests.
-* [CLEANUP.md](./CLEANUP.md) → Safe deletion of cluster & resources.
-
-
-📌 With this structure, your project will look **professional, clear, and recruiter-friendly** on GitHub & LinkedIn.
+* [Setup.md](./Setup.md) → Cluster creation, IAM, tools setup.
+* [Deployment.md](./Deployment.md) → App deployment with manifests.
+* [Cleanup.md](./Cleanup.md) → Safe deletion of cluster & resources.
