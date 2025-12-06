@@ -77,5 +77,3 @@ spec:
               port:
                 number: 80
 ```
-
-📌 With this structure, your project will look **professional, clear, and recruiter-friendly** on GitHub & LinkedIn.
