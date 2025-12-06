@@ -23,5 +23,3 @@ eksctl delete cluster --name demo-cluster --region us-east-1
 ⚠️ Note: If you see an error like `deadline surpassed waiting for AWS load balancers`, manually delete ALBs from **EC2 → Load Balancers**.
 
 ---
-
-📌 With this structure, your project will look **professional, clear, and recruiter-friendly** on GitHub & LinkedIn.
