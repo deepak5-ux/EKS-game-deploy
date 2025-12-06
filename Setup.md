@@ -54,5 +54,3 @@ eksctl create iamserviceaccount \
   --attach-policy-arn=arn:aws:iam::<ACCOUNT_ID>:policy/AWSLoadBalancerControllerIAMPolicy \
   --approve
 ```
-
-📌 With this structure, your project will look **professional, clear, and recruiter-friendly** on GitHub & LinkedIn.
